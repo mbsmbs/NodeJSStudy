@@ -2,7 +2,7 @@
 
 # 2. Creating a new package.json file
   - in Git Bash, move to project folder
-  ```
+  - ```
   npn init
   ```
   - Answer the questions
