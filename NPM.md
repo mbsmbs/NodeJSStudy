@@ -17,5 +17,5 @@
   
   - In index.js :
   ```
-  var someModuleName = require('someModuleName');       // use some module
+  var somePackageName = require('somePackageName');       // use some module
   ```
