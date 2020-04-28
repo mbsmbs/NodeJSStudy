@@ -9,11 +9,11 @@
   - Answer the questions
 
 # 3. How to install some npm package?
-  - In CMD : check in JSON file 'dependencies'
+  - In CMD : 
   ```
   npm install PackageName
   ```
-  
+  check in JSON file 'dependencies'
   
   - In index.js :
   ```
