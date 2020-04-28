@@ -13,7 +13,8 @@
   ```
   npm install PackageName
   ```
-  check in JSON file 'dependencies'
+  
+  - After Installation, check in JSON file 'dependencies'
   
   - In index.js :
   ```
