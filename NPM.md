@@ -4,6 +4,6 @@
   - In CMD, move to project folder
   - Run the following command:
   ```
-  npn init
+  npm init
   ```
   - Answer the questions
