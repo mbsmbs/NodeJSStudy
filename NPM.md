@@ -7,3 +7,9 @@
   npm init
   ```
   - Answer the questions
+
+# 3. How to install some npm package?
+  - In CMD : 
+  ```
+  npm install PackageNanem
+  ```
