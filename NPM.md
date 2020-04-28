@@ -14,7 +14,7 @@
   npm install PackageName
   ```
   
-  - After Installation, check in JSON file 'dependencies'
+  - After Installation, check 'dependencies' in JSON file
   
   - In index.js :
   ```
