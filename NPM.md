@@ -20,4 +20,6 @@
   - In index.js :
   ```
   var somePackageName = require('somePackageName');       // use some package
+  
+  some codes
   ```
