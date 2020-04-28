@@ -9,6 +9,7 @@
   - Answer the questions
 
 # 3. How to install some npm package?
+  - [Using npm packages in your projects](https://docs.npmjs.com/using-npm-packages-in-your-projects)
   - In CMD : 
   ```
   npm install PackageName
