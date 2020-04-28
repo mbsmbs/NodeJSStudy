@@ -1,7 +1,8 @@
 # 1. [NPM Documentation](https://docs.npmjs.com/)
 
 # 2. Creating a new package.json file
-  - in Git Bash, move to project folder
+  - In CMD, move to project folder
+  - Run the following command:
   ```
   npn init
   ```
