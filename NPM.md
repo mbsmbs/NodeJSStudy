@@ -9,7 +9,13 @@
   - Answer the questions
 
 # 3. How to install some npm package?
-  - In CMD : 
+  - In CMD : check in JSON file 'dependencies'
   ```
-  npm install PackageNanem
+  npm install PackageName
+  ```
+  
+  
+  - In index.js :
+  ```
+  var someModuleName = require('someModuleName');       // use some module
   ```
