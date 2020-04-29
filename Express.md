@@ -24,7 +24,7 @@
 
 # 6. Check package.json file.
 
-# 7. Install Express
+# 7. [Install Express](https://expressjs.com/ko/starter/installing.html)
   ```
   npm install express
   ```
