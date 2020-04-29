@@ -52,3 +52,14 @@
   ```
   
   - check console.log & site at localhost:3000
+
+# 10. Get()
+  ```
+  // When we type some address like localhost:3000/someContentPage
+  app.get("/someContentPage", (req, res) => res.send("This is some content page."));
+  
+  // same code
+  app.get("/someContentPage", function(req, res){
+    res.send("This is some content page."));
+  }
+  ```
