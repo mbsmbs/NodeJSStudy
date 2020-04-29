@@ -10,3 +10,5 @@
   - test Hello World in calculator.js
   - npm install -g nodemon
   - run server with nodemon
+
+# 2. Create index.html
