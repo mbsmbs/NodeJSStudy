@@ -62,6 +62,10 @@
   - Run ServerFile.js : 
   ```
   node ServerFile.js
+  
+  or
+  
+  nodemon ServerFile.js
   ```
   
   - check console.log & site at localhost:3000
