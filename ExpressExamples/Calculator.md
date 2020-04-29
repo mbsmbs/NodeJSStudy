@@ -11,4 +11,4 @@
   - npm install -g nodemon
   - run server with nodemon
 
-# 2. Create index.html
+# 2. Create [index.html](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/index.html)
