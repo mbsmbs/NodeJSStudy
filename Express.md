@@ -28,7 +28,20 @@
   ```
   npm install express
   ```
-# 8. Check node_modules added.
+  - Check node_modules added.
+  
+# 8. [Install Nodemon](https://www.npmjs.com/package/nodemon)
+  - Help Tool : Automatically restart the node app when file changes are detected.
+  
+  - Install
+  ```
+  npm install -g nodemon
+  ```
+  
+  - Execute ServerFile with nodemon
+  ```
+  nodemon ServerFile
+  ```
 
 # 9. Test Hello World Example
 
