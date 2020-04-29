@@ -12,3 +12,4 @@
   - run server with nodemon
 
 # 2. Create [index.html](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/index.html)
+  - [form, input, button](https://www.w3schools.com/html/html_forms.asp)
