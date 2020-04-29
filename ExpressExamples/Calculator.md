@@ -14,5 +14,5 @@
 # 2. Create [index.html](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/index.html)
   - [form, input, button](https://www.w3schools.com/html/html_forms.asp)
 
-# 3. Set this html file as a home route in calculator.js
+# 3. Set this html file as a home route in [calculator.js](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/calculator.js)
   - [res.sendFile](https://expressjs.com/ko/api.html#res.sendFile)
