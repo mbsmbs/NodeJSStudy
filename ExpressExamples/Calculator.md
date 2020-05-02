@@ -14,5 +14,12 @@
 # 2. Create [index.html](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/index.html)
   - [form, input, button](https://www.w3schools.com/html/html_forms.asp)
 
-# 3. Set this HTML file as a home route in [calculator.js](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/calculator.js)
+# 3. Set this HTML file as a home route(https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/calculator.js)
   - [res.sendFile](https://expressjs.com/ko/api.html#res.sendFile)
+
+# 4. Install body-parser to get access to <form> with post method
+  - [body-parser](https://github.com/mbsmbs/NodeJSStudy/blob/master/BodyParser.md)
+  
+# 5. Add some HTML File to practice body-parser 'bmicalculator.html'
+
+# 6. [Project Finish](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/calculator.js)
