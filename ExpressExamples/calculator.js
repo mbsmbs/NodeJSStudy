@@ -10,7 +10,7 @@ const port = 3000;
 
 app.get("/", function(req, res) { 
     res.sendFile(__dirname + "/index.html")
-    });
+});
 
 app.post("/", function(req, res) {
     
@@ -20,7 +20,7 @@ app.post("/", function(req, res) {
     let result = num1 + num2;
     
     res.send("The result is " + result);
-    });
+});
 
 app.get("/bmiCalculator", function(req, res){
     res.sendFile(__dirname + "/bmiCalculator.html");
