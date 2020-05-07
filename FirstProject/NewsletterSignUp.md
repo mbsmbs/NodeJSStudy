@@ -1,6 +1,6 @@
 # 1. Setting up Newletter SignUp Project
   
-# 2. How to set static folder
+# 2. Set static folder
 ```
 app.use(express.static("public"));
 ```
