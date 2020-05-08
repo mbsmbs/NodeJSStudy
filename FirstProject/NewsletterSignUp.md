@@ -19,11 +19,14 @@ app.get("/", function(req, res){
 # 5. POST
 ```
 app.post("/", function(req, res){
-
+    
+    // Fetch input datas
     let firstName = req.body.firstName;
     let lastName = req.body.lastName;
     let email = req.body.email;
-
+    //------------------
+    
+    // Data to send to mailchimp
     let data = {
         members: [
             {
@@ -36,16 +39,21 @@ app.post("/", function(req, res){
             }
         ]
     };
+    /// ------------------
 
+    // convert data to text to send mailchimp
     let jsonData = JSON.stringify(data);
-
+    
+    // to where
     const url = "https://us4.api.mailchimp.com/3.0/lists/d1f178682f";
-
+  
+    // some options
     const options = {
         method: "POST",
         auth: "minpro:ac717e5003e24aa74b921e52f87e79275-us4"
     }
-
+    
+    // get access to mailchimp
     const request = https.request(url, options, function(response){
         if(response.statusCode == 200)
         {
@@ -60,7 +68,8 @@ app.post("/", function(req, res){
             console.log(JSON.parse(data));
         })
     });
-
+    
+    // then write our data in mailchimp
     request.write(jsonData);
     request.end();
 
