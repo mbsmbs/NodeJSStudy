@@ -4,6 +4,7 @@ npm i ejs
 ```
 
 # 2. Create folder named 'views'
+
 # 3. Create EJS file : FileName.ejs
 ```
 <!DOCTYPE html>
@@ -18,6 +19,7 @@ npm i ejs
     </body>
 </html>
 ```
+
 # 4. app.js
 ```
 const express = require("express");
@@ -68,11 +70,20 @@ app.get("/", function(req, res)
             break;
     }
     
-    // Inside list.ejs, find 'kindOfDay' and set 'day' as a value 
+    // Inside list.ejs, find 'kindOfDay' and set 'day' as a value : <%= xxx >
     res.render("list", {kindOfDay : day});
 })
 
 app.listen(port, function(){
     console.log("Server started on port " + port);
 });
+```
+
+# 5. How to code inside ejs file? <% xxx %>
+```
+<% if(kindOfDay === "Saturday" || kindOfDay === "Sunday"){ %>
+    <h1 style="color: purple;">It's <%= kindOfDay %>!</h1>
+<% } else { %>
+    <h1 style="color: blue;">It's <%= kindOfDay %>!</h1>
+<% } %>
 ```
