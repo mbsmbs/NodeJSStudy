@@ -10,4 +10,4 @@ Study NodeJS
 # 7. [Express Example 1. Calculator](https://github.com/mbsmbs/NodeJSStudy/blob/master/ExpressExamples/Calculator.md)
 # 8. [APIs - Application Programming Interfaces](https://github.com/mbsmbs/NodeJSStudy/tree/master/APIs)
 # 9. [First Project - Newsletter-Signup](https://github.com/mbsmbs/NodeJSStudy/tree/master/FirstProject)
-# 10. [EJS Template](https://ejs.co/#install)
+# 10. [EJS Template](https://github.com/mbsmbs/NodeJSStudy/tree/master/EJSSamples)
