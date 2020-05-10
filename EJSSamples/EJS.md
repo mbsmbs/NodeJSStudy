@@ -3,7 +3,7 @@
 npm i ejs
 ```
 
-# 2. Create folder named views
+# 2. Create folder named 'views'
 # 3. Create EJS file : FileName.ejs
 ```
 <!DOCTYPE html>
