@@ -82,3 +82,9 @@ app.post("/failure.html", function(req, res){
     res.redirect("/");
 })
 ```
+
+# 7. Deploy [Heroku](https://www.google.com/search?q=heroku&rlz=1C1SQJL_koCA858CA858&oq=her&aqs=chrome.0.69i59j69i57j0l2j69i60l4.1773j0j1&sourceid=chrome&ie=UTF-8)
+  - add Procfile
+```
+web: node app.js
+```
