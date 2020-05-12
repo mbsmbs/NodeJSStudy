@@ -185,8 +185,8 @@ app.use(express.static("public"));
 ```
 
 # 9. Create Own Module
-    - Create new js file
-    - Inside js file: Use 'exports'
+- Create new js file
+- Inside js file: Use 'exports'
     
 ```
 exports.getDate =function()
@@ -219,7 +219,8 @@ exports.getDay = function()
     return day;
 }
 ```
-    - inside app.js
+
+- inside app.js
 ```
 const date = require("date");
 
