@@ -178,6 +178,7 @@ app.use(express.static("public"));
 # 8. Repeated code handling
     - Use [EJS Layouts](https://ejs.co/)
     - Ex : header.html & footer.html : Inside every ejs file
+    
 ```
 <%- include("header") -%>
 <%- include("footer") -%>
@@ -186,6 +187,7 @@ app.use(express.static("public"));
 # 9. Create Own Module
     - Create new js file
     - Inside js file: Use 'exports'
+    
 ```
 exports.getDate =function()
 {
