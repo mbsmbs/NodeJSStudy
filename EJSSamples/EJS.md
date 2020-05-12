@@ -166,3 +166,19 @@ app.listen(port, function(){
     console.log("Server started on port " + port);
 });
 ```
+
+# 7. Add css file
+    - Create public folder
+    - Inseide public folder, create css file
+    - Set express to use css file
+```
+app.use(express.static("public"));
+```
+
+# 8. Repeated code handling
+    - Use [EJS Layouts](https://ejs.co/)
+    - Ex : header.html & footer.html : Inside every ejs file
+```
+<%- include("header") -%>
+<%- include("footer") -%>
+```
