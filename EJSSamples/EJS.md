@@ -89,7 +89,7 @@ app.listen(port, function(){
 ```
 
 # 6. Data from web page to server
-    - list.ejs
+- list.ejs
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -120,7 +120,7 @@ app.listen(port, function(){
 </html>
 ```
     
-    - app.js
+- app.js
 ```
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -168,16 +168,16 @@ app.listen(port, function(){
 ```
 
 # 7. Add css file
-    - Create public folder
-    - Inseide public folder, create css file
-    - Set express to use css file
+- Create public folder
+- Inseide public folder, create css file
+- Set express to use css file
 ```
 app.use(express.static("public"));
 ```
 
 # 8. Repeated code handling
-    - Use [EJS Layouts](https://ejs.co/)
-    - Ex : header.html & footer.html : Inside every ejs file
+- Use [EJS Layouts](https://ejs.co/)
+- Ex : header.html & footer.html : Inside every ejs file
     
 ```
 <%- include("header") -%>
