@@ -182,3 +182,47 @@ app.use(express.static("public"));
 <%- include("header") -%>
 <%- include("footer") -%>
 ```
+
+# 9. Create Own Module
+    - Create new js file
+    - Inside js file: Use 'exports'
+```
+exports.getDate =function()
+{
+    let today = new Date();
+    
+    let options = {
+        weekday : "long",
+        day : "numeric",
+        month : "long"
+    };
+
+    let day = today.toLocaleDateString("en-US", options);
+
+    return day;
+}
+
+exports.getDay = function()
+{
+    let today = new Date();
+    
+    let options = {
+        weekday : "long",
+        day : "numeric",
+        month : "long"
+    };
+
+    let day = today.toLocaleDateString("en-US", options);
+
+    return day;
+}
+```
+    - inside app.js
+```
+const date = require("date");
+
+let day = date.getDate();
+//or
+let day = date.getDay();
+
+```
