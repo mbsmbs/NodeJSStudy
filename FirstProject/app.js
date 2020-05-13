@@ -38,7 +38,7 @@ app.post("/", function(req, res){
 
     const options = {
         method: "POST",
-        auth: "minpro:ac717e5003e24aa74b921e52f87e79275-usX"
+        auth: "name : apikey"
     }
 
     const request = https.request(url, options, function(response){
