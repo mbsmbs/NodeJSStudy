@@ -11,5 +11,5 @@ Study NodeJS
 # 8. [APIs - Application Programming Interfaces](https://github.com/mbsmbs/NodeJSStudy/tree/master/APIs)
 # 9. [First Project - Newsletter-Signup](https://github.com/mbsmbs/NodeJSStudy/tree/master/FirstProject)
 # 10. [EJS Template](https://github.com/mbsmbs/NodeJSStudy/tree/master/EJSSamples)
-# 11.
-# 12. [SQL](https://www.w3schools.com/sql/default.asp)
+# 11. [Second Project]()
+# 12. [SQL](https://github.com/mbsmbs/NodeJSStudy/tree/master/SQL)
